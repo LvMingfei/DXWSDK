@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'DXWSDK/Classes/**/*'
-  s.swift_version    = '4.0'
+  s.swift_version    = '3.0'
   
   # s.resource_bundles = {
   #   'DXWSDK' => ['DXWSDK/Assets/*.png']
