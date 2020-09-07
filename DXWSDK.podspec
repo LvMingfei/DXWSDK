@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DXWSDK'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DXWSDK.'
+  s.summary          = 'A test of DXWSDK.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    This is a test of DXWSDK, just a test
                        DESC
 
   s.homepage         = 'https://github.com/LvMingfei/DXWSDK.git'
@@ -30,14 +30,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
   s.static_framework = true
-  s.source_files = 'DXWSDK/Classes/*'
-  s.swift_version    = '4.0'
-  
+  s.source_files = 'DXWSDK/Classes/*.swift'
   # s.resource_bundles = {
   #   'DXWSDK' => ['DXWSDK/Assets/*.png']
   # }
 
-  s.public_header_files = 'DXWSDK/Classes/*'
+#  s.public_header_files = 'DXWSDK/Classes/*.swift'
   s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'Alamofire'
   s.dependency 'SnapKit'
