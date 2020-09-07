@@ -1,0 +1,35 @@
+{
+  "name": "DXWSDK",
+  "version": "0.1.0",
+  "summary": "A short description of DXWSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LvMingfei/DXWSDK.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lvmingfei": "18610086921@163.com"
+  },
+  "source": {
+    "git": "https://github.com/LvMingfei/DXWSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "DXWSDK/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "SnapKit": [
+
+    ]
+  }
+}

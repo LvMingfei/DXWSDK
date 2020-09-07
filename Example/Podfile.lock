@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (4.9.1)
+  - DXWSDK (0.1.0):
+    - Alamofire
+    - SnapKit
+  - Nimble (7.3.4)
+  - Quick (1.2.0)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - DXWSDK (from `../`)
+  - Nimble (~> 7.0)
+  - Quick (~> 1.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Nimble
+    - Quick
+    - SnapKit
+
+EXTERNAL SOURCES:
+  DXWSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  DXWSDK: 4e32f699b3f2d4d533e736d20c180eb0160b9050
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: a04b76a2b992d678e7c38447b333ef829171fbe0
+
+COCOAPODS: 1.9.2

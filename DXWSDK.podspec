@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/lvmingfei/DXWSDK'
+  s.homepage         = 'https://github.com/LvMingfei/DXWSDK.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lvmingfei' => '18610086921@163.com' }
-  s.source           = { :git => 'https://github.com/lvmingfei/DXWSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/LvMingfei/DXWSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'DXWSDK/Classes/**/*'
   
@@ -36,7 +36,8 @@ TODO: Add long description of the pod here.
   #   'DXWSDK' => ['DXWSDK/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'Alamofire'
+  s.dependency 'SnapKit'
 end
