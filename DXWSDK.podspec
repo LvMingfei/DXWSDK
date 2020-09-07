@@ -29,15 +29,15 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
-  s.source_files = 'DXWSDK/Classes/**/*'
+  s.static_framework = true
+  s.source_files = 'DXWSDK/Classes/*'
   s.swift_version    = '4.0'
   
   # s.resource_bundles = {
   #   'DXWSDK' => ['DXWSDK/Assets/*.png']
   # }
 
-  s.public_header_files = 'DXWSDK/Classes/**/*'
+  s.public_header_files = 'DXWSDK/Classes/*'
   s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'Alamofire'
   s.dependency 'SnapKit'
