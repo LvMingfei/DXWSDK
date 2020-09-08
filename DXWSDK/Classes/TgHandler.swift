@@ -4,6 +4,7 @@
 //
 //  Created by iRacoon on 2020/9/6.
 //
+import TG_DXW
 import SnapKit
 import UIKit
 
@@ -15,9 +16,7 @@ public class TgHandler: NSObject {
     private override init() {}
     
     public func showRedView() -> UIView{
-        let view = UIView()
-        view.backgroundColor = .red
-     
+        let view = PurpleView()
         
         let btn = UIButton()
         btn.addTarget(self, action: #selector(click), for: .touchUpInside)

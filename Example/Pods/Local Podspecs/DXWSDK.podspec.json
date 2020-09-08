@@ -1,8 +1,8 @@
 {
   "name": "DXWSDK",
   "version": "0.1.0",
-  "summary": "A short description of DXWSDK.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A test of DXWSDK.",
+  "description": "This is a test of DXWSDK, just a test",
   "homepage": "https://github.com/LvMingfei/DXWSDK.git",
   "license": {
     "type": "MIT",
@@ -18,8 +18,9 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "DXWSDK/Classes/**/*",
-  "public_header_files": "Pod/Classes/**/*.h",
+  "static_framework": true,
+  "source_files": "DXWSDK/Classes/*.swift",
+  "vendored_frameworks": "DXWSDK/Classes/*.framework",
   "frameworks": [
     "UIKit",
     "MapKit"

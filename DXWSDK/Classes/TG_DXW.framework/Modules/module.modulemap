@@ -1,0 +1,11 @@
+framework module TG_DXW {
+  umbrella header "TG_DXW.h"
+
+  export *
+  module * { export * }
+}
+
+module TG_DXW.Swift {
+    header "TG_DXW-Swift.h"
+    requires objc
+}
